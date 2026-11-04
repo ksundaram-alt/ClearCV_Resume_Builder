@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearCV — Resume Builder</title><link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <section class="auth-brand">
+      <a class="brand light" href="index.html"><span class="brand-mark">C</span> clearcv</a>
+      <div class="brand-copy">
+        <span class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</span>
+        <h1>Make your experience<br><em>impossible to ignore.</em></h1>
+        <p>Build a clear, confident resume that gets your skills noticed.</p>
+      </div>
+      <div class="mini-resume">
+        <div class="mini-top"><span></span><span></span><span></span></div>
+        <div class="mini-profile"><b></b><div><i></i><i></i></div></div>
+        <div class="mini-line wide"></div><div class="mini-line"></div>
+        <div class="mini-section"></div><div class="mini-line wide"></div><div class="mini-line"></div>
+        <div class="mini-section"></div><div class="mini-line wide"></div>
+      </div>
+      <span class="auth-foot">Thoughtfully made for your next opportunity.</span>
+    </section>
+    <section class="auth-panel">
+      <div class="auth-card">
+        <div class="mobile-brand"><a class="brand" href="index.html"><span class="brand-mark">C</span> clearcv</a></div>
+        <span class="eyebrow">WELCOME TO CLEARCV</span>
+        <h2 id="auth-title">Sign in to your workspace</h2>
+        <p class="muted" id="auth-subtitle">Pick up where you left off and keep moving forward.</p>
+        <form id="auth-form">
+          <label for="name" id="name-label" class="hidden">Full name</label>
+          <input id="name" class="hidden" type="text" placeholder="Your full name" autocomplete="name">
+          <label for="email">Email address</label>
+          <input id="email" type="email" placeholder="you@example.com" required autocomplete="email">
+          <label for="password">Password</label>
+          <div class="password-wrap"><input id="password" type="password" placeholder="Enter your password" required minlength="4" autocomplete="current-password"><button type="button" class="show-password" id="toggle-password">Show</button></div>
+          <button class="btn btn-primary full" id="auth-submit" type="submit">Sign in <span>→</span></button>
+          <p class="form-error" id="auth-error" role="alert"></p>
+        </form>
+        <div class="auth-switch"><span id="switch-copy">New to ClearCV?</span> <button id="switch-mode" type="button">Create an account</button></div>
+        <p class="demo-note">Frontend demo: account details are stored only in this browser.</p>
+      </div>
+    </section>
+  </main>
+  <script src="assets/app.js"></script>
+</body></html>
